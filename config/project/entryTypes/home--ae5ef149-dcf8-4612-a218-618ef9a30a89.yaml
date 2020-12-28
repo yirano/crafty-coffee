@@ -1,5 +1,5 @@
 fieldLayouts:
-  b9b6b267-f8ef-4785-9b12-bf7de91df4aa:
+  237c0644-9c8c-4df2-8fe1-cef788f15830:
     tabs:
       -
         elements:
@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
-            label: 'Drink Name'
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1bd27780-77ff-4095-b2f2-fc35406d1197
+            fieldUid: 0656b632-cf43-4827-a3b6-74d00d140e9a
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4b4dd321-3234-46c1-865a-ff8b646190d1
+            fieldUid: 1bd27780-77ff-4095-b2f2-fc35406d1197
             instructions: null
             label: null
             required: false
@@ -53,13 +53,13 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Drink Details'
+        name: Content
         sortOrder: 1
-handle: drinks
-hasTitleField: true
-name: Drinks
-section: 45e355d7-ce5f-4071-a6e3-9ba4f908bc71
+handle: home
+hasTitleField: false
+name: Home
+section: aba22554-ffcd-4b95-9064-02d3b24813db
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

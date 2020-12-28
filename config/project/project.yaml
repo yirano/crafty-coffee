@@ -1,9 +1,13 @@
-dateModified: 1609179502
+dateModified: 1609192117
 email:
   fromEmail: yirano@protonmail.ch
   fromName: 'Crafty Coffee'
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   seomatic:
     edition: standard
     enabled: true

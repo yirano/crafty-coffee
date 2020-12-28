@@ -1,5 +1,5 @@
 fieldLayouts:
-  b9b6b267-f8ef-4785-9b12-bf7de91df4aa:
+  33d18a07-5fb4-449d-a7cf-54d8aa2af292:
     tabs:
       -
         elements:
@@ -11,7 +11,7 @@ fieldLayouts:
             disabled: false
             id: null
             instructions: ''
-            label: 'Drink Name'
+            label: Headline
             max: null
             min: null
             name: null
@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: eab28bdf-3d8a-44bc-834b-7391e4b08520
+            fieldUid: 0656b632-cf43-4827-a3b6-74d00d140e9a
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1bd27780-77ff-4095-b2f2-fc35406d1197
+            fieldUid: 9ba9a13d-a87c-4fff-950e-1214dc2dfcb7
             instructions: null
             label: null
             required: false
@@ -44,21 +44,12 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-          -
-            fieldUid: 4b4dd321-3234-46c1-865a-ff8b646190d1
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: 'Drink Details'
+        name: 'News Body'
         sortOrder: 1
-handle: drinks
+handle: news
 hasTitleField: true
-name: Drinks
-section: 45e355d7-ce5f-4071-a6e3-9ba4f908bc71
+name: News
+section: 33825bfc-5acf-40cf-b10c-27b86e5fae8f
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: a38951ff-c2b7-4d4d-9fca-71104ac46ba5
+handle: introduction
+instructions: 'Short sentence at top of drink page.'
+name: Introduction
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

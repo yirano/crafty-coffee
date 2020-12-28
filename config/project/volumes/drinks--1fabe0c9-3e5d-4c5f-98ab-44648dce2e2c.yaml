@@ -1,0 +1,38 @@
+fieldLayouts:
+  90b95ddf-8770-44c2-bcef-9c6b2db82013:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: drinks
+hasUrls: true
+name: Drinks
+settings:
+  path: '@webroot/images/uploads/drinks'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@web/images/uploads/drinks'

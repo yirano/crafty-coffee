@@ -1,5 +1,5 @@
 fieldLayouts:
-  b9b6b267-f8ef-4785-9b12-bf7de91df4aa:
+  96adae01-2568-42c8-a30b-473eb3255660:
     tabs:
       -
         elements:
@@ -11,7 +11,7 @@ fieldLayouts:
             disabled: false
             id: null
             instructions: ''
-            label: 'Drink Name'
+            label: 'About Title'
             max: null
             min: null
             name: null
@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: eab28bdf-3d8a-44bc-834b-7391e4b08520
+            fieldUid: fbc7bb15-eb40-4f5d-bee0-76bfac0e290f
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1bd27780-77ff-4095-b2f2-fc35406d1197
+            fieldUid: 78d01bff-d42a-4144-9a0e-731eeb79cee9
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4b4dd321-3234-46c1-865a-ff8b646190d1
+            fieldUid: 3c58150e-4b14-4ef4-a974-4d1aea4258cb
             instructions: null
             label: null
             required: false
@@ -53,12 +53,12 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Drink Details'
+        name: Content
         sortOrder: 1
-handle: drinks
+handle: aboutCraftyCoffee
 hasTitleField: true
-name: Drinks
-section: 45e355d7-ce5f-4071-a6e3-9ba4f908bc71
+name: 'About Crafty Coffee'
+section: 7dafc2e8-9947-4488-9ee3-599d13c2296f
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
