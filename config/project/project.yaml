@@ -1,0 +1,22 @@
+dateModified: 1609179502
+email:
+  fromEmail: yirano@protonmail.ch
+  fromName: 'Crafty Coffee'
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.9
+system:
+  edition: pro
+  live: true
+  name: 'Crafty Coffee'
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
