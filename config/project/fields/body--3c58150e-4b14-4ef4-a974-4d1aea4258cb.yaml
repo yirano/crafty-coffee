@@ -1,8 +1,8 @@
 contentColumnType: text
-fieldGroup: 2a7b18dc-2086-41d0-b181-47598dc54e7b
-handle: aboutContent
-instructions: 'Introduce yourself!'
-name: 'About Content'
+fieldGroup: e65c8e09-4619-4d30-b17b-b4e26f82f854
+handle: body
+instructions: ''
+name: Body
 searchable: false
 settings:
   availableTransforms: '*'

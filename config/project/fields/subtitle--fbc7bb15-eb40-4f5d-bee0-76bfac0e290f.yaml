@@ -1,8 +1,8 @@
 contentColumnType: text
-fieldGroup: 2a7b18dc-2086-41d0-b181-47598dc54e7b
-handle: aboutTitle
-instructions: ''
-name: 'About Title'
+fieldGroup: e65c8e09-4619-4d30-b17b-b4e26f82f854
+handle: subtitle
+instructions: 'A short introduction.'
+name: Subtitle
 searchable: false
 settings:
   byteLimit: null
