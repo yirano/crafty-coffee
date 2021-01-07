@@ -16,10 +16,10 @@
                 <th>Style</th>
             </tr>
 
-            {% for drink in craft.entries.section('drinks').all() %}
+            {% for drink in craft.entries.section('drinks').limit(25).all() %}
 
             <tr>
-                <td><a href="drink-detail.html">{{drink.title}}</a></td>
+                <td><a href="{{drink.url}}">{{drink.title}}</a></td>
                 <td>{{drink.drinkDate|date('short')}}</td>
                 <td><a href="/styles/index.html">{{drink.drinkCategory}}</a></td>
             </tr>
