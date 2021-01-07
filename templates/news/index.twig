@@ -14,16 +14,14 @@
 </div>
 <div class="row">
     {% for news in craft.entries.section('news').all() %}
+<div class="row news-item first">
     <div class="large-12 small-12 columns">
-        <div class="intro large-12 small-12 columns text-center">
-            <p>{{ news.excerpt }}</p>
-        </div>
-
-        <h1>{{ news.title }}</h1>
-        <p class="byline">by {{ news.author }} on {{ news.postDate | date('M d, Y')}}</p>
-
-        {{ news.newsBody }}
+        <h1><a href="">{{news.title}}</a></h1>
+        <p class="byline">by {{news.author}} on {{news.postDate|date('M d, Y')}}</p>
+        
+        {{news.newsBody}}
     </div>
+</div>
     {% endfor %}
 </div>
 {% endblock %}
