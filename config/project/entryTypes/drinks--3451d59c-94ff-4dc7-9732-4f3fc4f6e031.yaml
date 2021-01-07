@@ -27,6 +27,24 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: 9d5cebbb-c698-4141-8318-c824f48bd2c5
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 033e4396-fbe5-4e48-b2e3-865475cd4910
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: eab28bdf-3d8a-44bc-834b-7391e4b08520
             instructions: null
             label: null
@@ -55,6 +73,19 @@ fieldLayouts:
             width: 100
         name: 'Drink Details'
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: fbc7bb15-eb40-4f5d-bee0-76bfac0e290f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Drink Index'
+        sortOrder: 2
 handle: drinks
 hasTitleField: true
 name: Drinks

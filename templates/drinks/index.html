@@ -15,45 +15,20 @@
                 <th>Added to Menu On</th>
                 <th>Style</th>
             </tr>
-            <tr>
 
-                <td><a href="drink-detail.html">Perfect Espresso</a></td>
-                <td>June 2010</td>
-                <td><a href="/styles/index.html">Espresso</a></td>
-            </tr>
+            {% for drink in craft.entries.section('drinks').all() %}
+
             <tr>
-                <td>Lila's Latte</td>
-                <td>June 2015</td>
-                <td>Espresso</td>
+                <td><a href="drink-detail.html">{{drink.title}}</a></td>
+                <td>{{drink.drinkDate|date('short')}}</td>
+                <td><a href="/styles/index.html">{{drink.drinkCategory}}</a></td>
             </tr>
-            <tr>
-                <td>Japanese Iced Coffee</td>
-                <td>April 2012</td>
-                <td>Pour-Over</td>
-            </tr>
-            <tr>
-                <td>Perfect Cuppa</td>
-                <td>January 2010</td>
-                <td>Pour-Over</td>
-            </tr>
-            <tr>
-                <td>Chemexcellent</td>
-                <td>June 2015</td>
-                <td>Chemex</td>
-            </tr>
+
+            {% endfor %}
+
         </table>
     </div>
 </div>
-<div class="row">
-    <div class="footer">
-        <p>Copyright 2018 Crafty Brewery, Inc. All rights reserved. Enjoy the buzz! (Part of a <a href="https://mijingo.com/craft">Mijingo course</a>)</p>
-    </div>
-</div>
-<script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="/bower_components/foundation/js/foundation.min.js"></script>
 
-<script>
-    $(document).foundation();
-</script>
 
 {% endblock %}

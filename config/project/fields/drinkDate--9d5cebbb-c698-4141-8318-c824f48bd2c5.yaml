@@ -1,0 +1,15 @@
+contentColumnType: datetime
+fieldGroup: a38951ff-c2b7-4d4d-9fca-71104ac46ba5
+handle: drinkDate
+instructions: ''
+name: 'Drink Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date
