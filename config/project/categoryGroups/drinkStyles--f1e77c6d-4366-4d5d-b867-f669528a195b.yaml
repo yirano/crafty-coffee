@@ -1,5 +1,5 @@
 fieldLayouts:
-  08a14443-53ba-4666-bf86-340f82b5972e:
+  f1002ed2-df92-4743-9195-69936cc3c9a0:
     tabs:
       -
         elements:
@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
-            label: 'Recipe Name'
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -23,20 +23,11 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\TitleField
             warning: null
             width: 100
           -
-            fieldUid: fe164635-5a58-40da-bb4a-6bc66660adbb
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 7171b81e-8b3c-4b8d-8c47-b13f0504a2f6
+            fieldUid: 0ba189cb-89f8-4ed3-b057-9b36c99def51
             instructions: null
             label: null
             required: false
@@ -46,11 +37,13 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: recipes
-hasTitleField: true
-name: Recipes
-section: 9c0110d7-f657-479b-8333-719ee85cd7ad
-sortOrder: 1
-titleFormat: null
-titleTranslationKeyFormat: null
-titleTranslationMethod: site
+handle: drinkStyles
+name: 'Drink Styles'
+siteSettings:
+  3f87edb4-b597-474f-aa87-a4261e199acf:
+    hasUrls: true
+    template: styles/_entry
+    uriFormat: 'styles/{slug}'
+structure:
+  maxLevels: null
+  uid: 5055ff7d-9a81-4766-b1d4-19afef55473c

@@ -2,10 +2,10 @@
 
 {% block main %}
 <ul class="breadcrumbs">
-    <li><a href="/templates/drinks">Drunks</a></li>
+    <li><a href="/drinks">Drinks</a></li>
     <li>{{entry.title}}</li>
 </ul>
-<div class="full-bleed-header" style="background-size: 100%; height: 300px; background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url({{entry.drinkImage.one().url}}); background-repeat: no-repeat, repeat;">
+<div class="full-bleed-header" style="background-size: 100%; height: 300px; background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url({{entry.drinkImage.one.url}}); background-repeat: no-repeat, repeat;">
     <div class="page-title text-center">
         <h2 class="logo"><span class="scripty">{{entry.title}}</h2>
         <p class="tagline reverse">{{entry.drinkCategory}}</p>
@@ -17,8 +17,8 @@
             <p>{{entry.introduction}}</p>
         </div>
         <p>{{entry.pageCopy}}</p>
-
-        <p><a href="../recipes/recipe-detail.html" class="button primary small radius">Make <i>Perfect Espresso</i> at Home</a></p>
+        {% set drinkRecipe = entry.drinkRecipe.one() %}
+        <p><a href="{{ drinkRecipe.url }}" class="button primary small radius">Make <i>{{entry.title}}</i> at Home</a></p>
     </div>
 </div>
 {%endblock%}

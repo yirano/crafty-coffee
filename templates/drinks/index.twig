@@ -21,7 +21,8 @@
             <tr>
                 <td><a href="{{drink.url}}">{{drink.title}}</a></td>
                 <td>{{drink.drinkDate|date('short')}}</td>
-                <td><a href="/styles/index.html">{{drink.drinkCategory}}</a></td>
+                {% set style = drink.drinkStyle.one() %}
+                <td><a href="{{style.url}}">{{style.title}}</a></td>
             </tr>
 
             {% endfor %}
